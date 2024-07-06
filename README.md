@@ -14,16 +14,7 @@ Notes App
 
 ## Ürün Açıklaması
 NotesApp, kullanımı kolay bir not alma uygulamasıdır. Metin tabanlı notlar almanıza ve kaydetmenize olanak tanır. Temiz ve minimalist tasarımı sayesinde odaklanmanızı sağlar ve notlarınızı düzenlemenizi kolaylaştırır.
-  
-## Ürün Özellikleri
-- Kullanıcı Dostu Arayüz.
-- Hızlı not oluşturma imkanı.
-- Notları düzenleme ve formatlama seçenekleri (kalın, italik, altı çizili metin vb.).
-- Notları kategorilere veya klasörlere ayırma.
-- Etiketler kullanarak notları organize etme.
-- Notlara dosya ve resim ekleme imkanı.
-- Notları diğer kullanıcılarla paylaşma.
-- E-posta veya diğer uygulamalarla entegrasyon.
+
 
 ## Hedef Kitle
 - Ajanda kullanımına ihtiyaç duyan kullanıcılar
@@ -51,14 +42,20 @@ NotesApp, kullanımı kolay bir not alma uygulamasıdır. Metin tabanlı notlar 
 
 ---
 ## Ürün Durumu
- 
+ ![LOGIN](https://github.com/AhmeTalhAkyol/oua_notes_app/assets/74508641/5e7c1f00-a094-4619-8751-9bd7a419f378)
+![WELCOME](https://github.com/AhmeTalhAkyol/oua_notes_app/assets/74508641/444aa29e-1a10-4561-b540-784e75983f44)
+![SIGN IN](https://github.com/AhmeTalhAkyol/oua_notes_app/assets/74508641/3b6b68c8-9125-4996-aabd-41d81adb5c8d)
+
 ### Sprint Review
 - Proje adı belirlendi: "NotesApp"
 - Kullanıcı temel sayfaları oluşturulmuş, kodlanmıştır
-- Kayıt ve giriş işlemleri için backend entegrasyonu Firebase Auth gibi bir servis ile sağlanmıştır
+- Kayıt ve giriş işlemleri için backend entegrasyonu Firebase Authentication ile sağlanmıştır
 - Hatalar giderildi ve iyileştirmeler yapıldı, test sırasında bulunan hatalar düzeltildi
 - Renk skalası ve logo için opsiyonlar çıkarıldı, henüz ortak karara varılamadı.
 - Flutter SDK ve bağımlılıklar kuruldu: Gerekli paketler ve bağımlılıklar yüklendi
 
 - **Sprint Retrospective:**
+  - Scrum toplantılarının haftada bir call ayarlanarak yapılmasına karar verildi.
+  - Uygulama adının 2. sprint sonuna kadar revize edilmesine karar verildi.
+  - 
   - 

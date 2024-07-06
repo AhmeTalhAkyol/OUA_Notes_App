@@ -29,8 +29,7 @@ NotesApp, kullanımı kolay bir not alma uygulamasıdır. Metin tabanlı notlar 
   
 - **Sprint içinde tamamlanması tahmin edilen puan**: 120 Puan
 
-
-- **Puan tamamlama mantığı**: İlk sprint'in sınav dönemlerine denk geliyor olması sebebi ile yoğunluk 2 ve 3. sprint için planlanmış, bu sprintte 3 sayfanın oluşturulması için gerekli olan taskların tahmini puanı 120 olarak belirlenmiştir.
+- **Puan tamamlama mantığı**: İlk sprint'in sınav dönemlerine denk geliyor olması sebebi ile yoğunluk 2 ve 3. sprint için planlanmış, bu sprintte 3 sayfanın oluşturulması için gerekli olan taskların tahmini puanı 120 olarak belirlenmiştir. İsmin revize edilecek olması sebebi ile logo tasarımı ve isim belirleme taskları "in progress" statüsünde bırkılmış, 110 puan "completed" statüsündedir.
 
 
 - **Daily Scrum**: Daily Scrum toplantılarınının takvimlerdeki uyuşmamazlıktan ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği Sprint klasöründe paylaşılmaktadır:
@@ -39,6 +38,7 @@ NotesApp, kullanımı kolay bir not alma uygulamasıdır. Metin tabanlı notlar 
 ## Sprint board:
 
 [Miro URL](https://miro.com/app/board/uXjVO4kRs2w=/](https://miro.com/app/board/uXjVK1YLlqY=/?share_link_id=586742812176))
+<img width="743" alt="Screenshot 2024-07-06 at 20 50 32" src="https://github.com/AhmeTalhAkyol/oua_notes_app/assets/74508641/eb543dbc-b6b7-454a-bd4f-b6123b899e18">
 
 ---
 ## Ürün Durumu
@@ -55,7 +55,5 @@ NotesApp, kullanımı kolay bir not alma uygulamasıdır. Metin tabanlı notlar 
 - Flutter SDK ve bağımlılıklar kuruldu: Gerekli paketler ve bağımlılıklar yüklendi
 
 - **Sprint Retrospective:**
-  - Scrum toplantılarının haftada bir call ayarlanarak yapılmasına karar verildi.
+  - Yapılan işlerin daha sıkı takibi açısından günlük konuşmalar haricinde haftada bir meeting atılarak toplanılmasına karar verildi.
   - Uygulama adının 2. sprint sonuna kadar revize edilmesine karar verildi.
-  - 
-  - 

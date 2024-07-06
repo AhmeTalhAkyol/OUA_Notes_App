@@ -1,7 +1,7 @@
 # OUA_Notes_App
-# **Takım İsmi**
+## **Takım İsmi**
 
-Takım Flutter 42
+Flutter 42
 ## Takım Elemanları
 - Ceren Kütükçüoğlu: Scrum Master
 - Barış Güngör: Product Owner / Developer
@@ -10,14 +10,13 @@ Takım Flutter 42
 - Ahmet Talha Akyol: Developer
 
 ## Ürün İsmi
-
---Notes App--
+Notes App
 
 ## Ürün Açıklaması
-- NotesApp, kullanımı kolay bir not alma uygulamasıdır. Metin tabanlı notlar almanıza ve kaydetmenize olanak tanır. Temiz ve minimalist tasarımı sayesinde odaklanmanızı sağlar ve notlarınızı düzenlemenizi kolaylaştırır.
+NotesApp, kullanımı kolay bir not alma uygulamasıdır. Metin tabanlı notlar almanıza ve kaydetmenize olanak tanır. Temiz ve minimalist tasarımı sayesinde odaklanmanızı sağlar ve notlarınızı düzenlemenizi kolaylaştırır.
   
 ## Ürün Özellikleri
-- Kullanıcı Dostu Arayüz:
+- Kullanıcı Dostu Arayüz.
 - Hızlı not oluşturma imkanı.
 - Notları düzenleme ve formatlama seçenekleri (kalın, italik, altı çizili metin vb.).
 - Notları kategorilere veya klasörlere ayırma.
@@ -34,7 +33,7 @@ Takım Flutter 42
 - Ücretsiz ve kullanımı kolay bir not alma uygulaması arayanlar
 
 # # Sprint 1
-- **Sprint Notları**: İlk iletilen epo adının dart kurallarına uygun olmaması sebebiyle linkimiz "https://www.github.com/AhmeTalhAkyol/oua_notes_app" olarak değişmiştir.
+- **Sprint Notları**: İlk iletilen repo adının dart kurallarına uygun olmaması sebebiyle linkimiz "https://www.github.com/AhmeTalhAkyol/oua_notes_app" olarak değişmiştir.
 
   
 - **Sprint içinde tamamlanması tahmin edilen puan**: 120 Puan
@@ -45,17 +44,19 @@ Takım Flutter 42
 
 - **Daily Scrum**: Daily Scrum toplantılarınının takvimlerdeki uyuşmamazlıktan ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği Sprint klasöründe paylaşılmaktadır:
 
-- **Sprint board update**: Sprint board:
-- [Miro Link] (https://miro.com/app/board/uXjVK1YLlqY=/?share_link_id=586742812176)
 
+## Sprint board:
 
-- **Ürün Durumu**: Ekran görüntüleri:
+[Miro URL](https://miro.com/app/board/uXjVO4kRs2w=/](https://miro.com/app/board/uXjVK1YLlqY=/?share_link_id=586742812176))
+
+---
+## Ürün Durumu
  
-- **Sprint Review**:
+### Sprint Review
 - Proje adı belirlendi: "NotesApp"
 - Kullanıcı temel sayfaları oluşturulmuş, kodlanmıştır
 - Kayıt ve giriş işlemleri için backend entegrasyonu Firebase Auth gibi bir servis ile sağlanmıştır
-- Hatalar giderildi ve iyileştirmeler yapıldı, Test sırasında bulunan hatalar düzeltildi
+- Hatalar giderildi ve iyileştirmeler yapıldı, test sırasında bulunan hatalar düzeltildi
 - Renk skalası ve logo için opsiyonlar çıkarıldı, henüz ortak karara varılamadı.
 - Flutter SDK ve bağımlılıklar kuruldu: Gerekli paketler ve bağımlılıklar yüklendi
 

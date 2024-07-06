@@ -16,7 +16,7 @@ Takım Flutter 42
 ## Ürün Açıklaması
 - NotesApp, kullanımı kolay bir not alma uygulamasıdır. Metin tabanlı notlar almanıza ve kaydetmenize olanak tanır. Temiz ve minimalist tasarımı sayesinde odaklanmanızı sağlar ve notlarınızı düzenlemenizi kolaylaştırır.
   
-- **Ürün Özellikleri**:
+## Ürün Özellikleri
 - Kullanıcı Dostu Arayüz:
 - Hızlı not oluşturma imkanı.
 - Notları düzenleme ve formatlama seçenekleri (kalın, italik, altı çizili metin vb.).
@@ -45,8 +45,9 @@ Takım Flutter 42
 
 - **Daily Scrum**: Daily Scrum toplantılarınının takvimlerdeki uyuşmamazlıktan ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği Sprint klasöründe paylaşılmaktadır:
 
-- **Sprint board update**: Sprint board screenshotları: 
-()
+- **Sprint board update**: Sprint board:
+- [Miro Link] (https://miro.com/app/board/uXjVK1YLlqY=/?share_link_id=586742812176)
+
 
 - **Ürün Durumu**: Ekran görüntüleri:
  

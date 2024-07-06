@@ -1,19 +1,30 @@
 # OUA_Notes_App
-
-## Ürün İsmi
---NotesApp--
 # **Takım İsmi**
+
 Takım Flutter 42
 ## Takım Elemanları
-- Barış Güngör: Product Owner / Developer
 - Ceren Kütükçüoğlu: Scrum Master
+- Barış Güngör: Product Owner / Developer
 - Deniz Vural: Developer
 - Beyza Nur Avşar: Developer
 - Ahmet Talha Akyol: Developer
 
+## Ürün İsmi
+
+--Notes App--
+
 ## Ürün Açıklaması
 - NotesApp, kullanımı kolay bir not alma uygulamasıdır. Metin tabanlı notlar almanıza ve kaydetmenize olanak tanır. Temiz ve minimalist tasarımı sayesinde odaklanmanızı sağlar ve notlarınızı düzenlemenizi kolaylaştırır.
+  
 - **Ürün Özellikleri**:
+- Kullanıcı Dostu Arayüz:
+- Hızlı not oluşturma imkanı.
+- Notları düzenleme ve formatlama seçenekleri (kalın, italik, altı çizili metin vb.).
+- Notları kategorilere veya klasörlere ayırma.
+- Etiketler kullanarak notları organize etme.
+- Notlara dosya ve resim ekleme imkanı.
+- Notları diğer kullanıcılarla paylaşma.
+- E-posta veya diğer uygulamalarla entegrasyon.
 
 ## Hedef Kitle
 - Ajanda kullanımına ihtiyaç duyan kullanıcılar
@@ -32,21 +43,20 @@ Takım Flutter 42
 - **Puan tamamlama mantığı**: İlk sprint'in sınav dönemlerine denk geliyor olması sebebi ile yoğunluk 2 ve 3. sprint için planlanmış, bu sprintte 3 sayfanın oluşturulması için gerekli olan taskların tahmini puanı 120 olarak belirlenmiştir.
 
 
-- **Daily Scrum**: Daily Scrum toplantılarınının takvimlerdeki uyuşmamazlıktan ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örnekleri Sprint klasöründe paylaşılmaktadır:
+- **Daily Scrum**: Daily Scrum toplantılarınının takvimlerdeki uyuşmamazlıktan ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği Sprint klasöründe paylaşılmaktadır:
 
 - **Sprint board update**: Sprint board screenshotları: 
 ()
-
 
 - **Ürün Durumu**: Ekran görüntüleri:
  
 - **Sprint Review**:
 - Proje adı belirlendi: "NotesApp"
-- Kullanıcı temel sayfaları oluşturulmuş, kodlanmıştır.
-- Kayıt ve giriş işlemleri için backend entegrasyonu Firebase Auth gibi bir servis ile sağlanmıştır.
-- Hatalar giderildi ve iyileştirmeler yapıldı, Test sırasında bulunan hatalar düzeltildi.
+- Kullanıcı temel sayfaları oluşturulmuş, kodlanmıştır
+- Kayıt ve giriş işlemleri için backend entegrasyonu Firebase Auth gibi bir servis ile sağlanmıştır
+- Hatalar giderildi ve iyileştirmeler yapıldı, Test sırasında bulunan hatalar düzeltildi
 - Renk skalası ve logo için opsiyonlar çıkarıldı, henüz ortak karara varılamadı.
-- Flutter SDK ve bağımlılıklar kuruldu: Gerekli paketler ve bağımlılıklar yüklendi.
+- Flutter SDK ve bağımlılıklar kuruldu: Gerekli paketler ve bağımlılıklar yüklendi
 
 - **Sprint Retrospective:**
   - 

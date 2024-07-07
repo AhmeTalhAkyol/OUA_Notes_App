@@ -14,7 +14,11 @@ Notes App
 
 ## Ürün Açıklaması
 NotesApp, kullanımı kolay bir not alma uygulamasıdır. Metin tabanlı notlar almanıza ve kaydetmenize olanak tanır. Temiz ve minimalist tasarımı sayesinde odaklanmanızı sağlar ve notlarınızı düzenlemenizi kolaylaştırır.
-
+## Ürün Özellikleri
+- Kolay ve sezgisel kullanım.
+- Basit ve temiz tasarım.
+- Not oluşturma ve düzenleme
+- Hızlı not oluşturma imkanı.
 
 ## Hedef Kitle
 - Ajanda kullanımına ihtiyaç duyan kullanıcılar

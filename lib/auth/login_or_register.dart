@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:oua_notes_app/pages/login_page.dart';
 import 'package:oua_notes_app/pages/register_page.dart';
 
+
 class LoginOrRegister extends StatefulWidget {
   const LoginOrRegister({super.key});
 
@@ -32,3 +33,5 @@ class _LoginOrRegisterState extends State<LoginOrRegister> {
     }
   }
 }
+
+

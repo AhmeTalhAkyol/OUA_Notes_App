@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:oua_notes_app/auth/login_or_register.dart';
 import 'package:oua_notes_app/pages/home_page.dart';
 
+
 class AuthGate extends StatelessWidget {
   const AuthGate({super.key});
 
@@ -25,3 +26,6 @@ class AuthGate extends StatelessWidget {
     );
   }
 }
+
+
+

@@ -41,7 +41,7 @@ NotesApp, kullanımı kolay bir not alma uygulamasıdır. Metin tabanlı notlar 
 
 ## Sprint board
 
-[Miro URL](https://miro.com/app/board/uXjVO4kRs2w=/](https://miro.com/app/board/uXjVK1YLlqY=/?share_link_id=586742812176))
+[Miro URL](https://miro.com/app/board/uXjVK1YLlqY=/?share_link_id=471776332825)
 
 ---
 <img width="743" alt="Screenshot 2024-07-06 at 20 50 32" src="https://github.com/AhmeTalhAkyol/oua_notes_app/assets/74508641/eb543dbc-b6b7-454a-bd4f-b6123b899e18">
@@ -63,7 +63,7 @@ NotesApp, kullanımı kolay bir not alma uygulamasıdır. Metin tabanlı notlar 
 ## Sprint Retrospective
   - Yapılan işlerin daha sıkı takibi açısından günlük konuşmalar haricinde haftada bir meeting atılarak toplanılmasına karar verildi.
 # Sprint 2
-- **Sprint Notları**: Bu sprintte bir revize olmamıştır
+- **Sprint Notları**: Bu sprintte bir revize olmamıştır.
 
   
 - **Sprint içinde tamamlanması tahmin edilen puan**: 220 Puan
@@ -71,7 +71,7 @@ NotesApp, kullanımı kolay bir not alma uygulamasıdır. Metin tabanlı notlar 
 - **Puan tamamlama mantığı**: Bu sprintte 2 sayfanın oluşturulması ve uygulamada essential olan özelliklerin geliştirilmesi için gerekli taskların tahmini puanı 220 olarak belirlenmiştir. İsmin revize edilecek olması sebebi ile logo tasarımı ve isim belirleme taskları "in progress" statüsünde bırkılmış, 210 puan "completed" statüsündedir.
 
 
-- **Daily Scrum**: Daily Scrum toplantılarınının takvimlerdeki uyuşmamazlıktan ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Ek olarak haftada 1 discord üzerinden call ayarlanmıştıe.  Scrum toplantısı örneklerini **Sprints>sprint2>Screenshots** klasöründe paylaşılmaktadır.
+- **Daily Scrum**: Daily Scrum toplantılarınının takvimlerdeki uyuşmamazlıktan ötürü Whatsapp üzerinden devam etmektedir. Ek olarak haftada bir discord üzerinden call organize edilmiştir.  Scrum toplantısı örneklerini **Sprints>sprint2>Screenshots** klasöründe paylaşılmaktadır.
 
 
 ## Sprint board

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'favorite_notes_page.dart';
+import 'settings_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -31,6 +33,7 @@ class _HomePageState extends State<HomePage> {
   final TextEditingController _contentController = TextEditingController();
   bool _isAddingNote = false;
   String? _editingNoteId;
+  List<DocumentSnapshot> favoriteNotes = [];
 
   Future<void> _addOrUpdateNote() async {
     final title = _titleController.text;
@@ -78,11 +81,46 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
+  void _toggleFavorite(String noteId) async {
+    final noteRef = _firestore.collection('Notes').doc(noteId);
+    final noteSnapshot = await noteRef.get();
+    final isFavorite = noteSnapshot['isFavorite'] ?? false;
+    await noteRef.update({'isFavorite': !isFavorite});
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text('My Notes'),
+        actions: [
+          IconButton(
+            icon: Icon(Icons.favorite),
+            onPressed: () async {
+              final favoriteNotes = await _firestore
+                  .collection('Notes')
+                  .where('isFavorite', isEqualTo: true)
+                  .get();
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => FavoriteNotesPage(
+                    favoriteNotes: favoriteNotes.docs,
+                  ),
+                ),
+              );
+            },
+          ),
+          IconButton(
+            icon: Icon(Icons.settings),
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => SettingsPage(),
+                ),
+              );
+            },
+          ),
+        ],
       ),
       body: _isAddingNote
           ? Padding(
@@ -91,7 +129,7 @@ class _HomePageState extends State<HomePage> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Text(
-              _editingNoteId == null ? 'Add a New Note' : 'Edit Note',
+              _editingNoteId == null ? 'Yeni bir not ekle' : 'Notu güncelle',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 20),
@@ -148,7 +186,7 @@ class _HomePageState extends State<HomePage> {
           }
 
           if (!snapshot.hasData || snapshot.data!.docs.isEmpty) {
-            return Center(child: Text('No notes available', style: TextStyle(fontSize: 18)));
+            return Center(child: Text('Henüz notunuz yok', style: TextStyle(fontSize: 18)));
           }
 
           return ListView(
@@ -164,6 +202,10 @@ class _HomePageState extends State<HomePage> {
                   trailing: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
+                      IconButton(
+                        icon: Icon(Icons.favorite, color: doc['isFavorite'] ? Colors.red : Colors.grey),
+                        onPressed: () => _toggleFavorite(doc.id),
+                      ),
                       IconButton(
                         icon: Icon(Icons.edit, color: Colors.blue),
                         onPressed: () => _editNote(

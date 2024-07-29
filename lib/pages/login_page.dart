@@ -72,10 +72,10 @@ class LoginPage extends StatelessWidget {
           ),
           //welcome back message
           Text(
-            "Welcome back,you've been missed",
+            "Hoşgeldin, seni özledik",
             style: TextStyle(
               color: Theme.of(context).colorScheme.primary,
-              fontSize: 16,
+              fontSize: 20,
             ),
           ),
           //email textfield
@@ -92,7 +92,7 @@ class LoginPage extends StatelessWidget {
           ),
           //pw textfield
           MyTextField(
-            hintText: "Password",
+            hintText: "Şifre",
             obscureText: true,
             controller: _pwController,
           ),
@@ -114,13 +114,13 @@ class LoginPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "Not a memeber?",
+                "Üye değil misin?",
                 style: TextStyle(color: Theme.of(context).colorScheme.primary),
               ),
               GestureDetector(
                 onTap: onTap,
                 child: Text(
-                  "Register now",
+                  "Şimdi üye ol",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     color: Theme.of(context).colorScheme.primary,
@@ -134,3 +134,4 @@ class LoginPage extends StatelessWidget {
     );
   }
 }
+

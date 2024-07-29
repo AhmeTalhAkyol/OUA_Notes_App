@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+ort 'package:flutter/material.dart';
 import 'package:oua_notes_app/auth/auth_service.dart';
 import 'package:oua_notes_app/components/my_button.dart';
 import 'package:oua_notes_app/components/my_textfield.dart';
@@ -64,10 +64,10 @@ class RegisterPage extends StatelessWidget {
           ),
           //welcome back message
           Text(
-            "Let's create an account for you",
+            "Hadi sana bir hesap oluşturalım!",
             style: TextStyle(
               color: Theme.of(context).colorScheme.primary,
-              fontSize: 16,
+              fontSize: 20,
             ),
           ),
           //email textfield
@@ -84,7 +84,7 @@ class RegisterPage extends StatelessWidget {
           ),
           //pw textfield
           MyTextField(
-            hintText: "Password",
+            hintText: "Şifre",
             obscureText: true,
             controller: _pwController,
           ),
@@ -106,7 +106,7 @@ class RegisterPage extends StatelessWidget {
           ),
 
           //login button
-          MyButton(text: "Register", onTap: () => register(context)),
+          MyButton(text: "Kaydol", onTap: () => register(context)),
 
           const SizedBox(
             height: 25,
@@ -117,13 +117,13 @@ class RegisterPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                "Already have an account",
+                "Zaten bir hesabım var",
                 style: TextStyle(color: Colors.black),
               ),
               GestureDetector(
                 onTap: onTap,
                 child: const Text(
-                  "Login now",
+                  "Giriş yap",
                   style: TextStyle(
                       fontWeight: FontWeight.bold, color: Colors.black),
                 ),

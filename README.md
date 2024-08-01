@@ -106,9 +106,9 @@ NotesApp, kullanımı kolay bir not alma uygulamasıdır. Metin tabanlı notlar 
 - **Sprint Notları**: İsim revizesi kararından  vazgeçilmiştir.
 
   
-- **Sprint içinde tamamlanması tahmin edilen puan**: 80 Puan
+- **Sprint içinde tamamlanması tahmin edilen puan**: 65 Puan
 
-- **Puan tamamlama mantığı**: Bu sprintte 2 sayfanın oluşturulması ve uygulamada essential olan özelliklerin geliştirilmesi için gerekli taskların tahmini puanı 80 olarak belirlenmiştir. İsmi revize etmekten vazgeçmiş olmamız sebebiyle tasklar silinmiştir. 80 puan "completed" statüsündedir.
+- **Puan tamamlama mantığı**: Bu sprintte 2 sayfanın oluşturulması ve uygulamada essential olan özelliklerin geliştirilmesi için gerekli taskların tahmini puanı 65 olarak belirlenmiştir. İsmi revize etmekten vazgeçmiş olmamız sebebiyle tasklar silinmiştir. 65 puan "completed" statüsündedir.
 
 
 - **Daily Scrum**: Daily Scrum toplantılarınının takvimlerdeki uyuşmamazlıktan ötürü Whatsapp üzerinden devam etmektedir. Ek olarak haftada bir discord üzerinden call organize edilmiştir.  Scrum toplantısı örneklerini **Sprints>sprint3>Screenshots** klasöründe paylaşılmaktadır.
@@ -116,10 +116,10 @@ NotesApp, kullanımı kolay bir not alma uygulamasıdır. Metin tabanlı notlar 
 
 ## Sprint board
 
-[Miro URL]([https://miro.com/app/board/uXjVKwhfDQ4=/?share_link_id=620701365545](https://miro.com/app/board/uXjVKt4LDoA=/?share_link_id=280692187300))
+[Miro URL](https://miro.com/app/board/uXjVKt4LDoA=/?share_link_id=955685055731)
 
 ---
-![Sprint3](https://github.com/user-attachments/assets/5fdb85bf-9f21-4054-828f-fac9587af4e1)
+![Sprint3](https://github.com/user-attachments/assets/95e66bee-c77a-4704-bf5b-bfd0d414a7c1)
 
 
 ## Ürün Durumu
@@ -128,7 +128,6 @@ NotesApp, kullanımı kolay bir not alma uygulamasıdır. Metin tabanlı notlar 
 ## Sprint Review
 - Uygulamanın favori notlar sayfasının UI/UX tasarımı yapıldı.
 - Profil sayfasının UI/UX tasarımı yapıldı.
-- Renk bütünlüğü üzerine kodların üzerinden geçildi.
 ## Sprint Retrospective
   Yarışma başında belirlediğimiz özelliklerin üzerinden geçilmiş ve proje başarıyla tamamlanmıştır.
   

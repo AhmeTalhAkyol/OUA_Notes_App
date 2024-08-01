@@ -85,7 +85,6 @@ NotesApp, kullanımı kolay bir not alma uygulamasıdır. Metin tabanlı notlar 
 ## Ürün Durumu
 
 ![WhatsApp Image 2024-07-21 at 14 44 47](https://github.com/user-attachments/assets/caa79d78-40c5-4155-b256-c0e82a5008e5)
-![WhatsApp Image 2024-07-21 at 14 44 47 (1)](https://github.com/user-attachments/assets/4ffa2afb-42d6-4f6f-876f-99f842aedff3)
 ![WhatsApp Image 2024-07-21 at 14 44 48](https://github.com/user-attachments/assets/8f32e589-818e-4bf9-bbe8-66a7d551c746)
 ![WhatsApp Image 2024-07-21 at 14 44 48 (1)](https://github.com/user-attachments/assets/18f3668a-1326-433f-be65-9e0b8da74d72)
 ![WhatsApp Image 2024-07-21 at 14 44 48 (2)](https://github.com/user-attachments/assets/a680d507-9834-4c3c-b0f7-7154543cca93)
@@ -103,4 +102,34 @@ NotesApp, kullanımı kolay bir not alma uygulamasıdır. Metin tabanlı notlar 
   - Favori notlar için bir sayfa oluşturulmasına karar verildi.
   - Kullanıcı profili ve ayarları için bir sayfa oluşturulmasına karar verildi.
   - Karşılaşılan sorunların hızlı bir şekilde çözülmesi için görüşmelerin daha sık yapılmasına karar verildi.
+# Sprint 3
+- **Sprint Notları**: İsim revizesi kararından  vazgeçilmiştir.
+
+  
+- **Sprint içinde tamamlanması tahmin edilen puan**: 80 Puan
+
+- **Puan tamamlama mantığı**: Bu sprintte 2 sayfanın oluşturulması ve uygulamada essential olan özelliklerin geliştirilmesi için gerekli taskların tahmini puanı 80 olarak belirlenmiştir. İsmi revize etmekten vazgeçmiş olmamız sebebiyle tasklar silinmiştir. 80 puan "completed" statüsündedir.
+
+
+- **Daily Scrum**: Daily Scrum toplantılarınının takvimlerdeki uyuşmamazlıktan ötürü Whatsapp üzerinden devam etmektedir. Ek olarak haftada bir discord üzerinden call organize edilmiştir.  Scrum toplantısı örneklerini **Sprints>sprint3>Screenshots** klasöründe paylaşılmaktadır.
+
+
+## Sprint board
+
+[Miro URL]([https://miro.com/app/board/uXjVKwhfDQ4=/?share_link_id=620701365545](https://miro.com/app/board/uXjVKt4LDoA=/?share_link_id=280692187300))
+
+---
+![Sprint3](https://github.com/user-attachments/assets/5fdb85bf-9f21-4054-828f-fac9587af4e1)
+
+
+## Ürün Durumu
+![WhatsApp Image 2024-07-21 at 14 44 47 (1)](https://github.com/user-attachments/assets/4ffa2afb-42d6-4f6f-876f-99f842aedff3)
+
+## Sprint Review
+- Uygulamanın favori notlar sayfasının UI/UX tasarımı yapıldı.
+- Profil sayfasının UI/UX tasarımı yapıldı.
+- Renk bütünlüğü üzerine kodların üzerinden geçildi.
+## Sprint Retrospective
+  Yarışma başında belirlediğimiz özelliklerin üzerinden geçilmiş ve proje başarıyla tamamlanmıştır.
+  
   
